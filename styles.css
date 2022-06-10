@@ -1,6 +1,6 @@
 body{
     background-image: url(img/85207.jpg);
-    background-repeat: repeat-y  ;
+    background-repeat: no-repeat;
     background-size: 60%;
     text-align: center;
 }
