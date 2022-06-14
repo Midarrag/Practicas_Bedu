@@ -1,28 +1,19 @@
 body{
-    background-image: url(img/85207.jpg);
-    background-repeat: no-repeat;
-    background-size: 60%;
+    background-color: #fffbf7;
     text-align: center;
 }
-h1{
+h1 {
     color: #025157;
 }
-h2{
-    color: #594caa;
-}
-p{
+.info{
     color: #46484c;
 }
-strong{
+.promo{
     color: #8b8b8bcc;
-    text-transform: uppercase;
 }
-label{
-    display: inline-block;
-    width: 80px;
-}
-.btn{
+button{
     color: #fff;
     background-color: #025157;
-    width: 200px;
 }
+
+
