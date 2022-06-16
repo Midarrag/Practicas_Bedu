@@ -89,5 +89,10 @@ h1 {
 .elemento{
     height: 150px;
 }
-
+h4{
+    font-family: 'Fascinate', cursive;
+}
+.main p{
+    font-family: 'Oswald', sans-serif;
+}
 
