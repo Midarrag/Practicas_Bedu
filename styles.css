@@ -2,6 +2,13 @@ body{
     background-color: #d79056;
     text-align: center;
 }
+.fixed-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0; 
+    background-color: #d79056;
+}
 .header {
     margin: 40px 20px 0;
     font-size: 0;
@@ -59,7 +66,7 @@ body{
 }
 
 .main {
-    margin-top: 20px;
+    margin-top: 120px;
     text-align: center;
   } 
 h1 {
@@ -87,11 +94,39 @@ h1 {
     height: 150px;
 }
 .elemento{
-    height: 150px;
+    height: 350px;
 }
 h4{
     font-family: 'Fascinate', cursive;
 }
 .main p{
     font-family: 'Oswald', sans-serif;
+}
+.publicidad h2{
+    color: #025157;
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+}
+.publicidad p{
+    color: #343434;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.promo{
+    display: flex;
+    width: 70%;
+    margin: 40px auto;
+    align-items: center;
+}
+.video-promo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.video-promo img{
+    height: 30px;
+    width: 150px;
+    margin-top: 15px;
 }
