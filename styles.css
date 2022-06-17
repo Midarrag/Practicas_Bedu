@@ -1,19 +1,97 @@
 body{
-    background-color: #fffbf7;
+    background-color: #5b5652;
     text-align: center;
 }
+.header {
+    margin: 40px 20px 0;
+    font-size: 0;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 45px;
+}
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    font-family: sans-serif;
+    height: 45px;
+}
+.logo {
+    width: 15%;
+}
+.logo > img{
+    width: 20%;
+} 
+.navbar {
+    width: 70%;
+    text-align: center;
+    color: #025157;
+    font-weight: 500;
+}
+.navbar li{
+    display: inline;
+    margin: 0 25px;
+}
+.actions {
+    width: 15%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+}
+.actions > *{
+    margin: 0 10px;
+}
+.actions a{
+    color: #67b54b;
+}
+.actions button{
+    color: #fff;
+    background-color: #67b54b;
+    padding: 12px 14px;
+    border: 0;
+    border-radius: 5px;
+}
+.actions button:hover{
+    background-color: #9db894;
+    cursor: pointer;
+}
+.actions button:active{
+    background-color: #226909
+}
+
+.main {
+    margin-top: 140px;
+    text-align: center;
+  } 
 h1 {
     color: #025157;
 }
 .info{
     color: #46484c;
 }
-.promo{
+.text-promo{
     color: #8b8b8bcc;
 }
-button{
+.text-btn{
     color: #fff;
     background-color: #025157;
+    border-radius: 5px;
 }
-
-
+.text-btn:hover{
+    background-color: #058c96;
+    cursor: pointer;
+}
+.text-btn:active{
+    background-color: #2d696d;
+}
+.capterra{
+    height: 150px;
+}
+.elemento{
+    height: 150px;
+}
+h4{
+    font-family: 'Fascinate', cursive;
+}
+.main p{
+    font-family: 'Oswald', sans-serif;
+}
