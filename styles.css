@@ -144,7 +144,6 @@ stories > *{
     width: 30%;
     padding: 20px;
     flex-direction: column;
-    pad
 }
 .vision h2{
     font-family: Cambria, serif; 
@@ -159,19 +158,25 @@ stories > *{
     margin-top: 25px;
 }
 .success{
-    width: 30%;
+    width: 20%;
     align-items: center;
     flex-direction: column;
     margin-top: 15px;
+    padding: 20px;
 }
 .personas{
     flex-direction: row;
+    height: 30%;
 }
-.personas foto{
+.foto{
     max-width: 100%;
-}.personas logo{
-    position: absolute;
-    bottom: -20px;
+}
+.audience{
+    display: flex;
+    align-items: center;
+}
+.audience > img{
+    width: 30%;
 }
 
 
