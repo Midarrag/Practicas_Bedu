@@ -1,5 +1,5 @@
 body{
-    background-color: #d79056;
+    background-color: #f2d5bd;
     text-align: center;
 }
 .fixed-header{
@@ -7,7 +7,7 @@ body{
     top: 0;
     left: 0;
     right: 0; 
-    background-color: #d79056;
+    background-color: #f2d5bd;
 }
 .header {
     margin: 40px 20px 0;
@@ -102,18 +102,6 @@ h4{
 .main p{
     font-family: 'Oswald', sans-serif;
 }
-.publicidad h2{
-    color: #025157;
-    font-family: "Alegreya", serif;
-    font-size: 40px;
-    line-height: 48px;
-}
-.publicidad p{
-    color: #343434;
-    font-size: 16px;
-    line-height: 1.5;
-    margin-bottom: 20px;
-}
 .promo{
     display: flex;
     width: 70%;
@@ -130,3 +118,60 @@ h4{
     width: 150px;
     margin-top: 15px;
 }
+.publicidad h2{
+    color: #025157;
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+}
+.publicidad p{
+    color: #343434;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.stories{
+    background-color: #a1d683;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+stories > *{
+    margin: auto auto;
+}
+.vision{
+    width: 30%;
+    padding: 20px;
+    flex-direction: column;
+    pad
+}
+.vision h2{
+    font-family: Cambria, serif; 
+    font-size: 52px;
+    color: #025157;
+}
+.vision .marcas{
+    margin-top: 20px;
+    max-width: 100%;
+}
+.brands{
+    margin-top: 25px;
+}
+.success{
+    width: 30%;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.personas{
+    flex-direction: row;
+}
+.personas foto{
+    max-width: 100%;
+}.personas logo{
+    position: absolute;
+    bottom: -20px;
+}
+
+
