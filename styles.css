@@ -183,6 +183,7 @@ stories > *{
     display: grid;
     justify-content: center;
     align-content: center;
+    height: auto;
     grid-template: repeat(2, 1fr)/repeat(2, 1fr);
     background-color: #058c96;
     padding: 25px 10%;
@@ -202,8 +203,7 @@ stories > *{
     padding: 20px;
 }
 .info img{
-    height: 20%;
-    padding: 10px;
+    height: 100px;
 }
 .info h2{
     font-size: 30px;
@@ -215,7 +215,7 @@ stories > *{
 .info a{
     color: #8f641e;
     text-decoration: double;
-    font-size: 20px;
+    font-size: 25px;
 }
 .image{
     margin-right: 0;
