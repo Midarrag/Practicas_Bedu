@@ -9,7 +9,7 @@ body{
     right: 0; 
     background-color: #f2d5bd;
 }
-.navbar {
+.header {
     margin: 10px 20px 0;
     font-size: 0;
     vertical-align: middle;
@@ -29,27 +29,28 @@ body{
     width: 20%;
 } 
 .navbar {
+    width: 70%;
     text-align: center;
     color: #025157;
     font-weight: 500;
 }
-.nav-item{
+.navbar li{
     display: inline;
     margin: 0 25px;
 }
-.d-flex{
-    width: 30%;
+.actions {
+    width: 15%;
     text-align: center;
     font-size: 14px;
     font-weight: 700;
 }
-.d-flex > *{
-    margin: 10px 0;
+.actions > *{
+    margin: 0 10px;
 }
-.d-flex a{
+.actions a{
     color: #67b54b;
 }
-.d-flex button{
+.actions button{
     color: #fff;
     background-color: #67b54b;
     padding: 12px 14px;
@@ -69,9 +70,7 @@ body{
     text-align: center;
   } 
 h1 {
-    font-size: 60px;
     color: #025157;
-    font-family: 'Franklin Gothic Medium', sans-serif;
 }
 .inf{
     color: #46484c;
@@ -181,55 +180,83 @@ stories > *{
     width: 30%;
 }
 .features {
-    margin-top: 5%;
-    background-color: #025157;
-    padding: 5% 10%;
     display: grid;
-    height: 660px;
-    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    justify-content: center;
+    align-content: center;
+    height: auto;
+    grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+    background-color: #058c96;
+    padding: 25px 10%;
 }
 .features article{
-    margin-bottom: 30px;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin: 20px 10px 20px 10px;
     background-color: #fff;
-    border: 1px solid #dadada;
-    border-radius: 5px;
     display: flex;
     align-items: center;
-    overflow: hidden;
 }
 .info{
-    padding: 30px 20px 40px 40px;
-    flex: 2;
+    text-align: left;
+    width: 60%;
+    padding: 20px;
 }
 .info >*{
-    margin-bottom: 1rem;
-    margin-top: 0;
+    padding: 20px;
 }
 .info img{
-    width: 40px;
-    margin-top: 20px;
+    height: 100px;
 }
-.info h3{
-    font-size: 25px;
+.info h2{
+    font-size: 30px;
     color: #2a1919;
 }
 .info p{
-    font-size: 20px;
+    font-size: 25px;
 }
 .info a{
     color: #8f641e;
     text-decoration: double;
-    font-size: 20px;
+    font-size: 25px;
 }
 .image{
     margin-right: 0;
 }
-.image > img{
+.image img{
     width: 240px;
     height: 360px;
 }
+.how-work{
+    background-color: #fffbf7;
+    padding: 5% 10%;
+    text-align: center;
+}
+.steps{
+    margin-top: 70px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.card-step{
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+.step-image{
+    position: relative;
+    height: 250px;
+}
+.step-ico{
+    width: 100%;
+    height: 100%;
+}
+.image-bg{
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 40px;
+}
+
 
 @media(max-width:575px) {
      .navbar, .actions{
