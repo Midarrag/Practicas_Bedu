@@ -24,6 +24,7 @@ p {
 button {
   color: #fff;
   background-color: #025157;
+  border-radius: 5px;
 }
 
 .header {
@@ -124,6 +125,10 @@ li {
 .publish > form p {
   color: #025157;
   margin-right: 18px;
+}
+.texto-boton:hover{
+  background-color: #67b54b;
+  border-radius: 8 px;
 }
 
 .promo {
